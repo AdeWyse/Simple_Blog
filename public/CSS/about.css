@@ -1,0 +1,28 @@
+.content{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.about{
+    height: 50%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    margin-top: 1em;
+}
+
+.about-right{
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}
+
+.about-left{
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    margin-left: 2.5%;
+}
+
+.title-page{
+    text-align: center;
+    padding: 0.5em;
+}
+

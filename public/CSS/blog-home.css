@@ -1,0 +1,51 @@
+.posts-preview{
+    display: flex;
+    flex-direction: column;
+}
+
+.link-titulo{
+    color: var(--black);
+}
+
+.link-titulo:hover{
+    color: var(--blue);
+
+}
+.content{
+    position: relative;
+    padding-bottom: 0.1em;
+}
+.titulo{
+    background-color: var(--white);
+    opacity: 75%;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    position: absolute;
+    bottom: 0.2em;
+    left: 0em;
+}
+.title:hover{
+    padding-bottom: 1.2em;
+}
+.title{
+    font-weight: bolder;
+    margin-left: 0.5em;
+
+}
+
+.small{
+    height: 80%;
+    margin-bottom: 15%;
+    margin-top: auto;
+}
+
+.nao-encontrado-inside{
+    margin-right: 0.5em;
+    border-radius: 0.5em;
+}
+
+
+
+
+
+

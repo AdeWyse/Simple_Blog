@@ -1,0 +1,19 @@
+.formulario{
+    padding-top: 1em;
+}
+.input-field{
+    width: 98%;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin-top: 0.5em;
+    border-radius: 0.5em;
+    border: 2px solid var(--blue);
+    font-family: "Source Code Pro";
+    padding-left: 0.5em;
+}
+
+.submit-form{
+    width: 35%;
+    margin-left: 32.5%;
+    margin-right: 32.5%;
+}

@@ -1,0 +1,150 @@
+body{
+    font-family: "Source Code Pro";
+    background-color: var(--white);
+}
+
+ul{list-style-type: none;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--blue);
+    font-family: "Roboto Mono";
+}
+
+a:hover{
+    color: var(--gray);
+    cursor: pointer;
+}
+
+.active{
+    color: var(--black);
+}
+
+h1, h2, h3, h4{
+    font-family: "Roboto Mono";
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 2em;
+    text-align: center;
+}
+h2{
+    font-weight: bold;
+    font-size: medium;
+}
+
+h3{
+}
+
+.spacing1{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.item-inside{
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+}
+.spacing{
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+.background{
+    background-color: var(--lBlue);
+    margin-bottom: 2em;
+    width: 75%;
+    border-radius: 0.5em;
+    padding-bottom: 0.25em;
+
+}
+
+.texto-background{
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}
+
+.formulario{
+    padding-top: 1em;
+}
+
+.format-texto{
+    width: 100%;
+    font-size: 1em;
+    padding: 0.8em;
+    padding-bottom: 1em;
+}
+.texto{
+    box-sizing: border-box;
+    line-height: 1.6em;
+    text-align: left;
+}
+
+.format-image{
+    margin-top: 1em;
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+
+}
+
+.background-inside{
+    background-color: var(--white);
+    margin-bottom: 1em;
+}
+
+.btn-inside{
+    font-family: "Roboto Mono";
+    color: var(--white);
+    text-align: center;
+    marging: 1em;
+}
+.btn{
+    box-sizing: border-box;
+    border: none;
+    padding: 0.5em;
+    margin: 0;
+    width: 15%;
+    background-color: var(--blue);
+    border-radius: 0.2em;
+
+}
+
+.btn:hover{
+    background-color: var(--gray);
+    color: var(--lBlue);
+    cursor: pointer;
+
+}
+
+.paginas{
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.visibilidadeOff{
+    visibility: hidden;
+    display: inline;
+}
+.visibilidadeOn{
+    visibility: visible;
+    display: inline;
+}
+.invisivel{
+    display: none;
+}
+.labels{
+    margin-left: 0.2em;
+}
+
+.bloco-fim{
+    display: flex;
+    align-self: flex-end;
+}
+

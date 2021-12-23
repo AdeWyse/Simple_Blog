@@ -1,0 +1,19 @@
+.menu-item{
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+    padding-top: 1em;
+    margin-top: 1em;
+    display: inline-flex;
+    justify-content: center;
+
+}
+
+.links-card{
+    padding-top: 1em;
+}
+
+.small{
+    height: 80%;
+    margin-bottom: 6%;
+    margin-top: auto;
+}

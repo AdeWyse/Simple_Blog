@@ -1,0 +1,74 @@
+.barra-navegacao{
+    background-color: var(--lBlue);
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+
+}
+.logo{
+    color: white;
+    font-family: "Roboto Mono";
+    font-size: x-large;
+    font-weight: bold;
+    padding: 0.5em;
+}
+.bar{
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+.nave-item{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.pesquisa{
+    margin-right: 2em;
+    position: relative;
+    width: 100%;
+    height: 2em;
+    display: inline-flex;
+
+}
+
+.pesquisa_input{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono";
+    width: 75%;
+    border-bottom-left-radius: 0.3em;
+    border-top-left-radius: 0.3em;
+    border: none;
+    padding-left: 0.5em;
+}
+.botao{
+    box-sizing: border-box;
+    border: none;
+    border-bottom-right-radius: 0.3em;
+    border-top-right-radius: 0.3em;
+    width: 25%;
+    margin-right: 2em;
+    padding: 0;
+    background-color: var(--blue);
+    display:flex;
+    justify-content: center;
+}
+.pesquisa_botao{
+    background-color: transparent;
+    color: var(--white);
+    border: none;
+    width: 100%;
+
+    border-bottom-right-radius: 0.3em;
+    border-top-right-radius: 0.3em;
+
+}
+
+.botao :hover{
+    background-color: var(--gray);
+}
+

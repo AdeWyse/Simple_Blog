@@ -1,0 +1,16 @@
+.messages-item{
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+    padding-bottom: 0.5em;
+
+}
+.message{
+    padding-top: 1em;
+}
+.botao-excluir{
+    width: 5%;
+    margin-left: 90%;
+    margin-right: 0.2em;
+    height: 90%;
+    margin-bottom: 1em;
+}

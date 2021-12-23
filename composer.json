@@ -1,0 +1,19 @@
+{
+    "name": "utfpr/pratica",
+    "autoload": {
+        "psr-4": {
+            "Utfpr\\Pratica\\": "src/",
+            "Utfpr\\Pratica\\Public\\": "public/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AdelineRCWG",
+            "email": "adelinewyse@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.7.1",
+        "symfony/cache": "^5.3"
+    }
+}

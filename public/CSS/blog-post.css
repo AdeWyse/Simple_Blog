@@ -1,0 +1,30 @@
+.title-post{
+    background-color: var(--white);
+    padding: 1em;
+}
+
+.format-texto{
+    width: 100%;
+    font-size: 1em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    padding-bottom: 0em;
+    padding-top: 0;
+}
+.texto{
+    box-sizing: border-box;
+    line-height: 1.6em;
+    text-align: left;
+}
+.background-inside{
+    padding-bottom: 2em;
+    border-radius: 0.5em;
+}
+
+.botao-excluir{
+    width: 5%;
+    margin-left: 90%;
+    margin-right: 0.2em;
+    height: 90%;
+    margin-top: 1em;
+}
